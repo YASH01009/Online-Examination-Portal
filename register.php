@@ -33,9 +33,9 @@
 
 <?php
 
-$username = 'id13737626_mydb';
-$dbpassword = 'g<W>rc&D=tH9zbNR';
-$dbname = 'id13737626_studentdb';
+$username = '';
+$dbpassword = '';
+$dbname = '';
 
 $dbc = mysqli_connect('localhost',$username,$dbpassword,$dbname) or die('Error connecting to MySql Server');
 
